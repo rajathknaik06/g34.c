@@ -7,7 +7,18 @@ Output format :
 The output displays "Sum: " followed by the floating point number, representing the calculated sum of the series.*/
 
 #include <stdio.h>
+/*This program calculates the sum of the series */
 
+/*If i is even, subtract 
+1/i to sum
+
+​
+  from sum.
+If i is odd, add 
+1/i to sum
+
+​
+  to sum.*/
 int main() {
     int N;
     float sum = 0.0;
